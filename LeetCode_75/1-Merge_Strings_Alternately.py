@@ -18,7 +18,7 @@ while i < len(word1) and j < len(word2):
     i += 1
     j += 1
 
-result += word1[i:]
+result += word1[i:]  
 result += word2[j:]
 
 print("Merged string is", result)
