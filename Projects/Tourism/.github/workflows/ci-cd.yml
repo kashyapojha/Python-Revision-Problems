@@ -2,7 +2,7 @@ name: Incredible India — CI/CD Pipeline
 
 on:
   push:
-    branches: [main, develop]
+    branches: [main]
   pull_request:
     branches: [main]
   workflow_dispatch:          # allow manual trigger from GitHub UI
